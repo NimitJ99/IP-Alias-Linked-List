@@ -1,0 +1,26 @@
+OBJ = main.o addAddress.o lookUp.o updateAdd.o deleteAdd.o diplayL.o display4Location.o saveFile.o quit.o
+
+ipList: $(OBJ)
+        gcc -o -w ipList $(OBJ)
+main.o: main.c  header.h
+        gcc -c main.c
+addAddress.o: addAddress.c header.h
+        gcc -c addAddress.c
+lookUp.o: lookUp.c header.h
+        gcc -c lookUp.c
+updateAdd.o: updateAdd.c header.h
+        gcc -c updateAdd.c
+deleteAdd.o: deleteAdd.c header.h
+        gcc -c deleteAdd.c
+diplayL.o: diplayL.c header.h
+        gcc -c diplayL.c
+display4Location.o: display4Location.c header.h
+        gcc -c display4Location.c
+saveFile.o: saveFile.c header.h
+        gcc -c saveFile.c
+quit.o: quit.c header.h
+        gcc -c quit.c
+
+clean:
+        rm -rf a.exe
+        rm -rf $(OBJ)
