@@ -1,7 +1,6 @@
 /******************************************************************************************
   Author:       Nimitkumar Jogani
   Date:         November 8, 2022
-  Affiliation:  George Mason University
   Purpose:      This is a singly linked list program that reads IP/Alias from a file and perform various operation on
                 the linked list and save it to new file.
   Last Modification: November 8, 2022
