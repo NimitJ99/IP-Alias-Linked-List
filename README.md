@@ -1,6 +1,6 @@
 # IP-Alias-Linked-List
 
-Design Of a Linked List to store the IP address and it's Alias corresponding Alias.
+Design Of a Linked List to store the IP address and it's corresponding Alias.
 
 The program will read a file and import all IP/Alias pairs to a linked list.
 
